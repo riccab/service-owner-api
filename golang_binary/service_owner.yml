@@ -1,0 +1,28 @@
+---
+product:
+  - name: application1
+    owner: sre-team
+    slack_handle: '@sre-team'
+    email: sreteam@xyz.com
+  - name: application2
+    owner: employee.1
+    slack_handle: '@employee.1'
+    email: employee.1@xyz.com
+    phone: 123-456-7890
+  - name: application3
+    owner: sre-team
+    slack_handle: '@sre-team'
+    email: sreteam@xyz.com
+  - name: application4
+    owner: dev-team
+    slack_handle: '@dev-team'
+    email: devteam@xyz.com
+  - name: application5
+    owner: 'employee.2'
+    slack_handle: '@employee.2'
+    email: employee.2@xyz.com
+    phone: 123-456-7892
+
+
+
+
