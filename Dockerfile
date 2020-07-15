@@ -1,4 +1,4 @@
-FROM docker.polarisalpha.com/golang:1.13.7-alpine3.11 as binaryBuilder
+FROM golang:1.13.7-alpine3.11 as binaryBuilder
 
 RUN \
   echo -e "\e[32madd build dependency packages\e[0m" \
