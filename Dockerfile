@@ -19,10 +19,7 @@ FROM scratch
 LABEL \
   build-date="2020-02-26" \
   description="Service Owner API" \
-  maintainer="application-support@polarisalpha.com" \
-  name="service_owner_api" \
-  vendor="Parsons" \
-  version=""
+  maintainer="ricca.brunolli@gmail.com" \
 
 WORKDIR /bin
 COPY --from=binaryBuilder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
